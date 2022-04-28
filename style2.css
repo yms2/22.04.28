@@ -1,0 +1,76 @@
+#wrap{width: 1680px;
+margin: 0 auto;}
+
+/* 메인부분 */
+
+#main{width: 100%; height: 1100px;
+background: url(../images/flower_01.jpg) no-repeat 0 0;}
+
+#header{width: 100%; height: 400px; 
+        padding: 80px 65px 0; box-sizing: border-box;}
+/* 상단부분 */
+#header .logo{float: left;}
+#header nav{float: right;}
+#header nav ul{}
+#header nav li{ margin-bottom: 20px; text-align: right;}
+#header nav a{font-size: 24px; color:#fff; text-transform: uppercase} 
+/* text-transform: uppercase 대문자만드는 것 
+라인하이트는 행간 ul li는 메뉴 배너*/
+
+/* 메인 텍스트 */
+#main .main_txt{width: 1600px; height: 500px;
+    border:9px solid #fff; margin: 0 auto;
+}
+#main .txt_box{
+    float: right;
+    padding: 70px 90px 0 0;
+    box-sizing: border-box;
+}
+#main .txt_box .ttl{
+    font-size: 55px; line-height:1.2;color: #fff;text-transform: uppercase;}
+#main .txt_box .s_ttl{
+    margin-top: 40px;
+    font-size: 29px; 
+    color: rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    word-spacing: 10px; }
+#main .txt_box .txt{
+    margin-top: 40px;line-height: 1.4;
+    font-size: 16px; color:  rgba(255, 255, 255, 0.6);}
+
+    /* 본문내용 */
+#contents{
+    width: 1680px;
+}
+#contents .daily{
+    width: 1680px;height: 1040px;}
+#contents .daily header{width: 1680px; height: 250px;padding-top: 90px;
+;box-sizing: border-box;}
+#contents .daily header ul{margin: 0 auto; width: 760px;
+                            display: flex;justify-content: space-between;}
+#contents .daily header ul li{float: left;}
+#contents .daily header ul li a{font-size: 28px; font-weight: 500; color:rgba(176, 209, 209); 
+    border-bottom: 5px solid transparent}
+/* transparent는 밑에 줄 색이 없는것. */
+#contents .daily header ul li a:hover{
+    border-bottom: 5px solid rgba(176, 209, 209)}
+/* 가져다 대면 줄이 생긴다. */
+#contents .daily section{width: 1680px;height: 840px;
+ position: relative;}
+
+#contents .daily section .images{width: 100%; height: 640px;
+                                background:url(../images/sldie_01.jpg) no-repeat 0 0;}
+#contents .daily section .arr_lef{position: absolute; top: 300px;left: 80px;
+z-index: 9999;}
+#contents .daily section .arr_right{position: absolute; top: 300px;right: 80px;
+z-index: 9999;}
+#contents .daily section .btns{position: absolute;bottom:70px ;left:50%;margin-left:-57.5px;}
+#contents .daily section .btns li{
+    width: 15px;height: 15px;
+    float: left; margin-right: 10px;
+
+border-radius: 50%; background-color: bisque;
+}
+#contents .daily section .btns li a{display: block;width: 100%;height: 15px;}
+#contents .flower{}
